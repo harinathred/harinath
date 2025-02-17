@@ -9,7 +9,6 @@ public class Palidrome {
         String str=scn.next();
         //String str="madam";
         String reversed=new StringBuilder(str).reverse().toString();
-        System.out.println(reversed
-        );
+        System.out.println(reversed);
     }
 }
