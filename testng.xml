@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Testing Suite">
+    <test name="GET API Test Cases">
+        <classes>
+            <class name="EX03_Get_request.ApiTesting07_Get_BDDStyle">
+                <!-- List of methods to run -->
+                <methods>
+                    <include name="get_bdd_postive"/>
+                    <include name="get_Bdd_negative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
